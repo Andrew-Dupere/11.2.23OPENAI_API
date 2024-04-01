@@ -1,0 +1,5 @@
+building heights:
+
+[big tower: 144 feet
+biggggg tower: 255 feet
+bigest tower: 4055 feet ]

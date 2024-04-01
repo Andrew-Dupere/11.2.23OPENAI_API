@@ -35,8 +35,6 @@ def gptCompletions():
         messages=[
             {"role": "system", "content": "You are a helpful assistant."},
             {"role": "user", "content": "Who won the world series in 2020?"},
-            {"role": "assistant", "content": "The Los Angeles Dodgers won the World Series in 2020."},
-            {"role": "user", "content": "Where was it played?"}
         ]
     )
     print(response)
@@ -52,9 +50,9 @@ def picGen():
     print(image_url)
 
 
-chat_with_gpt(model='text-davinci-003')
+# chat_with_gpt(model='text-davinci-003')
 
-# picGen()
+picGen()
 
-#gptCompletions()
 
+# gptCompletions()
