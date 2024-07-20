@@ -50,9 +50,9 @@ def picGen():
     print(image_url)
 
 
-# chat_with_gpt(model='text-davinci-003')
+chat_with_gpt(model='text-davinci-003')
 
-picGen()
+# picGen()
 
 
 # gptCompletions()
